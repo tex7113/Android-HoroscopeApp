@@ -40,6 +40,6 @@ class MainActivity : AppCompatActivity() {
     private fun initNavigation() {
         val navHost = supportFragmentManager.findFragmentById(R.id.fragmentContainerView) as NavHostFragment
         navController = navHost.navController
-        binding.btnToNavView.setupWithNavController(navController)
+        binding.btnNavView.setupWithNavController(navController)
     }
 }
